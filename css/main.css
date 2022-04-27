@@ -1,0 +1,29 @@
+h1,h1+p{
+    color:#333333;
+
+}
+h1 {
+    font-size:40px;
+    font-weight:bold;
+}
+h1+p{
+    font-size:16px;
+}
+body{
+    background-color:#EEEEEE;
+    text-align: center;
+    font-family:'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    color:#333333;
+
+}
+.landpage{
+    background-color:white;
+    margin:0px 20px;
+}
+img{
+    width:80%;
+}
+.landpage p{
+    font-size:20px;
+    padding-bottom:20px;
+}
