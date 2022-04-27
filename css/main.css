@@ -7,13 +7,16 @@ h1 {
     font-weight:bold;
 }
 h1+p{
-    font-size:16px;
+    font-size:20px;
 }
-body{
+body {
     background-color:#EEEEEE;
-    text-align: center;
     font-family:'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
     color:#333333;
+
+}
+h1,h1+p,.landpage,.comment,.final,.footer{
+    text-align: center;
 
 }
 .landpage{
@@ -26,4 +29,44 @@ img{
 .landpage p{
     font-size:20px;
     padding-bottom:20px;
+}
+.section h2{
+    padding: 40px;
+}
+.section ul span{
+    font-weight: bold;
+
+}
+.section ul {
+    font-size:27px;
+    width: 50%;
+    margin-left:25%;
+    
+}
+.section ul li{
+    padding:15px;
+}
+.section h2{
+    text-align: center;
+    
+}
+.section .comment{
+    font-style: italic;
+    font-size:27px;
+    width: 50%;
+    margin-left:25%;
+    text-align: left;
+    color:#333;
+    margin-top:50px;
+    margin-bottom:50px;
+
+
+}
+.final{
+    font-size:25px;
+    font-weight: bold;
+}
+.footer{
+    background-color:white;
+    height:3vh;
 }
