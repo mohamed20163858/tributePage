@@ -25,6 +25,8 @@ h1,h1+p,.landpage,.comment,.final,.footer{
 }
 img{
     max-width:100%;
+    display:block;
+    margin:0 auto;
 }
 .landpage figcaption{
     font-size:20px;
